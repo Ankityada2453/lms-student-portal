@@ -1,0 +1,7 @@
+body { margin: 0; font-family: Arial; }
+.navbar { display: flex; justify-content: space-between; padding: 10px; background: #222; color: #fff; }
+.navbar a { color: #fff; margin: 0 10px; text-decoration: none; }
+.page { padding: 20px; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; }
+.overview-card, .list-card { padding: 15px; background: #f4f4f4; border-radius: 8px; }
+.login-container { max-width: 300px; margin: 80px auto; }
